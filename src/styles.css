@@ -1,0 +1,39 @@
+.capitalize {
+  text-transform: capitalize;
+}
+
+
+.userInfo {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.userInfo .box {
+  margin: 0;
+}
+.userInfo .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box img {
+  flex-grow: 1;
+}
+
+.loading, form.selectUser {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form.selectUser * {
+  margin: 10px 0;
+}
