@@ -15,27 +15,20 @@ class App extends Component {
   // Get the user's favorite pokemon from the pokemon API and store it in state
   getUser = (e, userId) => {
     e.preventDefault();
-    this.setState({ loading: true });
-    axios
-      .get(`/users/${userId}`)
-      .then(res => {
-        const pokeApi = res.data.pokemonEndpoint;
-        this.setState({
-          selectedUser: res.data,
-        });
-        console.log(pokeApi);
-        return axios.get(pokeApi);
-      })
-      .then(res => {
-        console.log(res);
-        this.setState({
-          pokemon: res.data,
-          loading: false,
-        });
-      })
-      .catch(err => {
-        console.error(err);
-      });
+    this.setState({loading: true});
+
+   // Fill me in!
+
+   // 1. Get the user from the server (Endpoint is /users/:id)
+
+   // 2. Get the pokemon api endpoint from the user that came back
+
+   // 3. Get the pokemon from that endpoint
+
+   // 4. Save the user and the pokemon to state
+
+   // 5. Set loading to false
+   
   };
 
   // Get an array of all user's IDs/Names from the server to populate our form
