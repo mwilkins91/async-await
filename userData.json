@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Mark",
+    "favoritePokemon": "Ditto",
+    "pokemonEndpoint": "https://pokeapi.co/api/v2/pokemon/132/",
+    "avatar": "https://www.gravatar.com/avatar/e61141b36b35e9a51797340acf2f6aea"
+  },
+  {
+    "name": "Simon",
+    "favoritePokemon": "Jigglypuff",
+    "pokemonEndpoint": "https://pokeapi.co/api/v2/pokemon/39",
+    "avatar": "https://www.gravatar.com/avatar/959f0c9cb7524c8b511694e836a8c02a"
+  },
+  {
+    "name": "Ksenija",
+    "favoritePokemon": "Alakazam",
+    "pokemonEndpoint": "https://pokeapi.co/api/v2/pokemon/65",
+    "avatar": "https://www.gravatar.com/avatar/9e3c140cdd4930619096553ac78be37c"
+  }
+]
