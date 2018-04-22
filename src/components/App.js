@@ -21,7 +21,7 @@ class App extends Component {
 
    // 1. Get the user from the server (Endpoint is /users/:id)
 
-   // 2. Get the pokemon api endpoint from the user that came back
+   // 2. Get the pokemon api endpoint from the user that came back (user.pokemonEndpoint)
 
    // 3. Get the pokemon from that endpoint
 
