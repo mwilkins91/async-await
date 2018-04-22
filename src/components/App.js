@@ -25,9 +25,9 @@ class App extends Component {
 
    // 3. Get the pokemon from that endpoint
 
-   // 4. Save the user and the pokemon to state
+   // 4. Save the user and the pokemon to state ({pokemon, selectedUser})
 
-   // 5. Set loading to false
+   // 5. Set loading to false ({loading})
    
   };
 
