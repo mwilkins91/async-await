@@ -18,7 +18,7 @@ class App extends Component {
     this.setState({loading: true});
 
    // Fill me in!
-
+      
    // 1. Get the user from the server (Endpoint is /users/:id)
 
    // 2. Get the pokemon api endpoint from the user that came back (user.pokemonEndpoint)

@@ -7,7 +7,8 @@
 
 // * Part of: ECMAScript 2017 (ES8)
 
-// * Supported in all major browsers minus IE/Edge (to some degree)
+// * Supported in all major browsers (to some degree) minus IE/Edge
 
 // * Supported in Node 7.6 and highter
 
+// * Two new keywords: "async" and "await"
